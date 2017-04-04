@@ -1,0 +1,64 @@
+<html>
+<title>Nepali Calendar</title>
+
+<head>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+
+<div id="calendar">
+
+	<!-- Menu -->
+	<div id="head">
+		<table class="menu">
+			<tr>
+				<td>
+					<div class="arrow left" id="previous"> Previous </div>
+					<select class="year left" id="year"></select>
+					<select class="month left" id="month"></select>
+				</td>
+				
+				<td>
+					<div class="arrow right" id="next"> Next </div>
+					<div id="corrsMonth" class="right"></div>
+				</td>
+			</tr>
+		</table>					
+	</div>
+	
+	<!-- Calendar -->
+	<table cellspacing="0" class="main">
+		<thead>
+			<tr>
+				<td>Sunday</td>
+				<td>Monday</td>
+				<td>Tuesday</td>
+				<td>Wednesday</td>
+				<td>Thursday</td>
+				<td>Friday</td>
+				<td>Saturday</td>
+			</tr>
+		</thead>
+		<tbody id="tbody">			
+		</tbody>
+	</table>
+
+	<!-- mask -->
+	<div id="mask">
+		Loading
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+
+</html>
+
+
+
+

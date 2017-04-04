@@ -1,0 +1,73 @@
+<html>
+<title>Nepali Date picker</title>
+
+<head>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+
+<div id="calendar">
+
+	<!-- Menu -->
+	<div id="head">
+		<table class="menu">
+			<tr>
+				<td>
+					<div class="arrow left" id="previous"> < </div>
+				</td>
+				<td>
+					<select class="year left" id="year"></select>
+				</td>
+				<td>
+					<select class="month right" id="month"></select>
+				</td>
+				<td>
+					<div class="arrow right" id="next"> > </div>
+				</td>
+			</tr>
+		</table>					
+	</div>
+	
+	<!-- Calendar -->
+	<table cellspacing="0" class="main">
+		<thead>
+			<tr>
+				<td>Sun</td>
+				<td>Mon</td>
+				<td>Tue</td>
+				<td>Wed</td>
+				<td>Thu</td>
+				<td>Fri</td>
+				<td>Sat</td>
+			</tr>
+		</thead>
+		<tbody id="tbody">			
+		</tbody>
+	</table>
+
+	<!-- mask -->
+	<div id="mask">
+		Loading ...
+	</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br>
+<div style="margin: 0 auto; width: 300px; text-align: center">
+<h1> Input a date here </h1>
+<input type="text" name="" value="" placeholder="Date here" id="nepali-date" />
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+
+</html>
+
+
+
+
